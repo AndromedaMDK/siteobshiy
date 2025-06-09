@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT профессии и зачем они нужны</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4B0082;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #330055;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #4B0082;
+            border-bottom: 2px solid #4B0082;
+            padding-bottom: 10px;
+        }
+        .image-block {
+            background-color: #330055;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .image-block img {
+            max-width: 100%;
+            height: auto;
+        }
+        .image-block p {
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #4B0082;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            bottom: 0;
+        }
+        .oursites{
+            text-decoration: none;
+            color: #ffffff;
+        }
+        a:hover{
+            color: rgb(182, 93, 255);
+            transition: color 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IT профессии и зачем они нужны</h1>
+    </header>
+    <nav>
+        <a href="#intro">Введение</a>
+        <a href="#professions">Профессии</a>
+        <a href="#importance">Важность</a>
+        <a href="#conclusion">Заключение</a>
+    </nav>
+    <div class="container">
+        <div class="section" id="intro">
+            <h2>Введение</h2>
+            <p>Информационные технологии (IT) играют ключевую роль в современном мире. Они охватывают широкий спектр профессий, каждая из которых вносит свой вклад в развитие технологий и улучшение качества жизни.</p>
+        </div>
+        <div class="section" id="professions">
+            <h2>IT профессии</h2>
+            <div class="image-block">
+                <img src="programmer.jpg" alt="Программист">
+                <p>Программист занимается разработкой программного обеспечения, пишет и тестирует код для создания различных приложений и систем. Эта профессия требует знаний языков программирования и способности решать сложные задачи для автоматизации процессов и улучшения технологий.</p>
+            </div>
+            <div class="image-block">
+                <img src="designer.jpg" alt="Дизайнер">
+                <p>Дизайнер — это специалист, занимающийся созданием визуальных решений для различных проектов, включая графический дизайн, веб-дизайн, дизайн интерьеров и продуктов. Его работа направлена на сочетание эстетики и функциональности для улучшения пользовательского опыта и коммуникации.</p>
+            </div>
+            <div class="image-block">
+                <img src="analyst.jpg" alt="Аналитик">
+                <p>Аналитик занимается сбором и анализом данных для выявления ключевых тенденций и разработки рекомендаций. Его работа помогает организациям принимать обоснованные решения и улучшать бизнес-процессы.</p>
+            </div>
+        </div>
+        <div class="section" id="importance">
+            <h2>Важность IT профессий</h2>
+            <p>IT профессии важны по многим причинам. Они способствуют инновациям, улучшают бизнес-процессы, обеспечивают безопасность данных и создают новые возможности для общения и развлечений.</p>
+            <p>Без IT специалистов современный мир не смог бы функционировать так эффективно, как это происходит сегодня. Они играют ключевую роль в развитии технологий и улучшении качества жизни.</p>
+        </div>
+        <div class="section" id="conclusion">
+            <h2>Заключение</h2>
+            <p>IT профессии предлагают широкие возможности для карьерного роста и самореализации. Они требуют постоянного обучения и адаптации к новым технологиям, но в то же время предоставляют уникальные возможности для творчества и инноваций.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 IT профессии. Все права защищены.</p><br>
+        <h4>Наши сайты:</h4>
+        <a class="oursites" href="yatsey.html"><p>Ярослав Яцей</p></a>
+        <a class="oursites" href="chudov.html"><p>Лев Чудов</p></a>
+        <a class="oursites" href="orlov.html"><p>Роман Орлов</p></a>
+        <a class="oursites" href="filippov.html"><p>Константин Филиппов</p></a>
+    </footer>
+</body>
+</html>
